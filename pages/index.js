@@ -1,9 +1,9 @@
-import React from "react";
+import { useState, useEffect } from "react";
 import { useAccount, useConnect } from "wagmi";
 
 const useIsMounted = () => {
-  const [mounted, setMounted] = React.useState(false);
-  React.useEffect(() => setMounted(true), []);
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
   return mounted;
 };
 
