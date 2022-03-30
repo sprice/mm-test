@@ -9,6 +9,8 @@ import { WalletLinkConnector } from "wagmi/connectors/walletLink";
 // Two popular services are Infura (infura.io) and Alchemy (alchemy.com)
 const infuraId = process.env.NEXT_PUBLIC_INFURA_ID;
 
+console.log("infuraId", infuraId);
+
 // Chains for connectors to support
 const chains = defaultChains;
 
