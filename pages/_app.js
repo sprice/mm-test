@@ -1,3 +1,5 @@
+import React from "react";
+
 import "../styles/globals.css";
 
 import { Provider, chain, defaultChains } from "wagmi";
